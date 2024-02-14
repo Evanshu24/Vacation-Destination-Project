@@ -36,7 +36,7 @@ function createDestinationCard(name,location,photoURL,description){
   var img=document.createElement('img');
   img.setAttribute('alt',name);
 
-  var constantPhotoUrl="images/signpost.jpg";
+  var constantPhotoUrl="signpost.jpg";
 
   if(photoURL.length===0){
     img.setAttribute('src',constantPhotoUrl);
